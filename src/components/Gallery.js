@@ -1,6 +1,6 @@
 import cards from "../data/cardsData";
 
-function Gallery() {
+function Gallery({ onSelectImage }) {
   return (
     <div className="container">
       <div className="row">
@@ -12,6 +12,7 @@ function Gallery() {
                   src={imgSrc}
                   className="card-img-top card-js"
                   alt="nature"
+                  onClick={() => onSelectImage(imgSrc)}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{title}</h5>

@@ -3,3 +3,8 @@
   height: 180px;
   object-fit: cover;
 }
+.displayer img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}

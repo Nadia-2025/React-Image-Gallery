@@ -23,6 +23,24 @@ const cards = [
     text: "This is a wider card with supporting text...",
     date: "Last updated 3 mins ago",
   },
+  {
+    imgSrc: "./img/img5.png",
+    title: "Card title 5",
+    text: "This is a wider card with supporting text...",
+    date: "Last updated 3 mins ago",
+  },
+  {
+    imgSrc: "./img/img6.png",
+    title: "Card title 6",
+    text: "This is a wider card with supporting text...",
+    date: "Last updated 3 mins ago",
+  },
+  {
+    imgSrc: "./img/img7.png",
+    title: "Card title 7",
+    text: "This is a wider card with supporting text...",
+    date: "Last updated 3 mins ago",
+  },
 ];
 
 export default cards;
